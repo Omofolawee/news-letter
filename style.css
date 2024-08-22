@@ -1,0 +1,75 @@
+body, html{
+    background-color:  hsl(234, 29%, 20%);
+}
+body{
+    height: 100vh;
+    width: 100%;
+}
+.sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    padding:20px 0;
+    border-radius: 10px;
+    gap: 40px;
+}
+.title{
+    font-size: 50px;
+    font-family: sans-serif;
+    color:  hsl(234, 29%, 20%);
+}
+.text{
+    width: 40%;
+}
+.checked{
+    display: flex;
+    gap: 10px;
+}
+.email{
+    color: hsl(234, 29%, 20%);
+    font-size: 16px;
+    font-weight: 550;
+    font-family: sans-serif;
+}
+.input{
+    width: 80%;
+    padding: 15px 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: 0.2px solid black;
+}
+button{
+    background-color:  hsl(234, 29%, 20%);
+    color:white;
+    width:90%;
+    border-radius: 10px;
+    border: none;
+    padding: 15px 15px;
+    font-family:sans-serif;
+    font-weight: 600;
+}
+.image{
+    height: 550px;
+}
+
+@media screen and (max-width:960px) {
+    body, html{
+        background-color: white;
+    }
+    .container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .text{
+        width: 80%;
+    }
+    .image{
+
+    }
+}
